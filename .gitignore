@@ -1,0 +1,26 @@
+# Terraform
+.terraform
+.terraform.*
+terraform.*
+
+# VS Code
+.vscode
+
+# Cache
+__pycache__
+
+# Secrets and environment files
+.env
+.env.*
+scripts/get-env.sh
+scripts/setup-parameters.sh
+
+# Serverless
+.serverless
+.serverless/*
+
+# Node modules
+node_modules
+.venv/*
+app/uploads/avatars
+!app/uploads/avatars/.gitkeep
